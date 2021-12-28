@@ -1,0 +1,16 @@
+{
+  "name": "chain-of-responsibility",
+  "version": "0.0.0",
+  "scripts": {
+    "test:watch": "jest --watch",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2"
+  }
+}
