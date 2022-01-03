@@ -1,7 +1,7 @@
 import { api } from "./utils";
 
-export class Requset {
-  static instance: Requset;
+export class Request {
+  static instance: Request;
   private cache: Record<string, string>;
 
   constructor() {
@@ -13,7 +13,7 @@ export class Requset {
       return this.instance;
     }
 
-    this.instance = new Requset();
+    this.instance = new Request();
     return this.instance;
   }
 

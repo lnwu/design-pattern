@@ -1,5 +1,5 @@
 import { request } from "./request-object";
-import { Requset } from "./request-class";
+import { Request } from "./request-class";
 
 test("should return response more than 500ms", async () => {
   const startTime = Date.now();
@@ -23,7 +23,7 @@ test("should response quickly second time", async () => {
 });
 
 test("should response more than 500ms with class", async () => {
-  const request = Requset.getInstance();
+  const request = Request.getInstance();
 
   const startTime = Date.now();
   await request.request("/user/1");
@@ -35,11 +35,11 @@ test("should response more than 500ms with class", async () => {
 });
 
 test("should response quickly second time with class", async () => {
-  const request1 = Requset.getInstance();
+  const request1 = Request.getInstance();
   await request1.request("/user/1");
 
   const startTime = Date.now();
-  const request2 = Requset.getInstance();
+  const request2 = Request.getInstance();
   await request2.request("/user/1");
   const endTime = Date.now();
 
