@@ -3,12 +3,14 @@ lockfileVersion: 5.3
 specifiers:
   '@types/jest': ^27.0.3
   jest: ^27.4.5
+  mobx: ^6.3.12
   ts-jest: ^27.1.2
   typescript: ^4.4.4
 
 dependencies:
   '@types/jest': 27.0.3
   jest: 27.4.5
+  mobx: 6.3.12
   ts-jest: 27.1.2_b65cae1b46840061996b6cc0ea16ca56
 
 devDependencies:
@@ -1173,7 +1175,7 @@ packages:
     dev: false
 
   /fsevents/2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+    resolution: {integrity: sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -2040,6 +2042,10 @@ packages:
 
   /minimist/1.2.5:
     resolution: {integrity: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==}
+    dev: false
+
+  /mobx/6.3.12:
+    resolution: {integrity: sha512-5Hx2IjhBtySVQlSFe+sHczKgOQ+cCyi8hN2wEvWzpJEEMRflQoDzDwJJ+m7SBWBQhfrWMWb1RGZNk4X1XtxJkQ==}
     dev: false
 
   /ms/2.1.2:
